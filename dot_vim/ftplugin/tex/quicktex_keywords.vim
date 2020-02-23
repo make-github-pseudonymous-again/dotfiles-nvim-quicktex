@@ -141,7 +141,8 @@ let g:quicktex_math = {
     \'inv'    : "\<BS>^{-1} ",
     \'pr'     : "\<BS>' ",
     \'times'  : '\times ',
-    \'choose' : '\choose ',
+    \'choose' : "\<ESC>BviWdi\\binom{\<ESC>pa}{<+++>} <++>",
+    \'binom'  : '\binom{<+++>}{<++>} <++>',
     \'min'    : '\min ',
     \'max'    : '\max ',
     \
