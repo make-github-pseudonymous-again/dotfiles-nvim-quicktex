@@ -15,7 +15,7 @@
 " Math Mode Keywords {{{
 
 let g:quicktex_math = {
-    \' ' : "\<ESC>/<+.*+>\<CR>\"_c/+>/e\<CR>",
+    \' ' : "\<ESC>:call search('<+.*+>')\<CR>\"_c/+>/e\<CR>",
 \'Section: Lowercase Greek Letters' : 'COMMENT',
     \'alpha'   : '\alpha ',
     \'ga'      : '\alpha ',
@@ -289,7 +289,7 @@ let g:quicktex_math = {
 " LaTeX Mode Keywords {{{
 
 let g:quicktex_tex = {
-    \' ' : "\<ESC>/<+.*+>\<CR>\"_c/+>/e\<CR>",
+    \' ' : "\<ESC>:call search('<+.*+>')\<CR>\"_c/+>/e\<CR>",
     \'m' : '\( <+++> \) <++>',
     \'x' : '\(<+++>\)<++>',
     \'xx' : "\<ESC>Bvedi\\(\<ESC>pa\\) <+++>",
