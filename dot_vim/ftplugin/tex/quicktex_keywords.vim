@@ -101,9 +101,9 @@ let g:quicktex_math = {
     \'co'    : "\<BS>, ",
     \'empty' : '\emptyset ',
     \'pair'  : '(<+++>, <++>) <++>',
-    \'dts'  : '\dots ',
-    \'ldts' : '\ldots ',
-    \'cdts' : '\cdots ',
+    \'dts'   : '\dots ',
+    \'ldts'  : '\ldots ',
+    \'cdts'  : '\cdots ',
     \
 \'Section: Logic' : 'COMMENT',
     \'exists'  : '\exists ',
@@ -149,13 +149,13 @@ let g:quicktex_math = {
 \'Section: Delimiters' : 'COMMENT',
     \'bprn' : '\left( <+++> \right) <++>',
     \'prn'  : '(<+++>) <++>',
-    \'bsb'   : '\left[ <+++> \right] <++>',
-    \'sb'    : '[<+++>] <++>',
-    \'bbra'  : '\left\{ <+++> \right\} <++>',
-    \'bra'   : '\{<+++>\} <++>',
+    \'bsb'  : '\left[ <+++> \right] <++>',
+    \'sb'   : '[<+++>] <++>',
+    \'bbra' : '\left\{ <+++> \right\} <++>',
+    \'bra'  : '\{<+++>\} <++>',
     \'bang' : '\left\langle <+++> \right\rangle <++>',
     \'ang'  : '\langle <+++> \rangle <++>',
-    \'grp'   : '{<+++>} <++>',
+    \'grp'  : '{<+++>} <++>',
     \
 \'Section: Group Theory' : 'COMMENT',
     \'sdp'   : '\rtimes ',
@@ -235,7 +235,7 @@ let g:quicktex_math = {
     \'bar'  : "\<ESC>F a\\overline{\<ESC>f i} ",
     \'tild' : "\<ESC>F a\\tilde{\<ESC>f i} ",
     \'hat'  : "\<ESC>F a\\hat{\<ESC>f i} ",
-    \'st' : "\<BS>^* ",
+    \'st'   : "\<BS>^* ",
     \'vec'  : "\<ESC>F a\\vec{\<ESC>f i} ",
     \
 \'Section: Linear Algebra' : 'COMMENT',
@@ -243,8 +243,8 @@ let g:quicktex_math = {
     \'SL'     : '\text{SL} ',
     \'com'    : "\<BS>^c ",
     \'matrix' : "\<CR>\\begin{bmatrix}\<CR><+++>\<CR>\\end{bmatrix}\<CR><++>",
-    \'vdts'  : '\vdots & ',
-    \'ddts'  : '\ddots & ',
+    \'vdts'   : '\vdots & ',
+    \'ddts'   : '\ddots & ',
     \
 \'Section: Constants' : 'COMMENT',
     \'aleph' : '\aleph ',
@@ -290,9 +290,9 @@ let g:quicktex_math = {
 " LaTeX Mode Keywords {{{
 
 let g:quicktex_tex = {
-    \' ' : "\<ESC>:call search('<+.*+>')\<CR>\"_c/+>/e\<CR>",
-    \'m' : '\( <+++> \) <++>',
-    \'x' : '\(<+++>\)<++>',
+    \' '  : "\<ESC>:call search('<+.*+>')\<CR>\"_c/+>/e\<CR>",
+    \'m'  : '\( <+++> \) <++>',
+    \'x'  : '\(<+++>\)<++>',
     \'xx' : "\<ESC>BviWdi\\(\<ESC>pa\\) <+++>",
 \'Section: Environments' : 'COMMENT',
     \'cmd' : "\<ESC>BviWdi\\\<ESC>pa{<+++>}<++>",
@@ -384,7 +384,7 @@ let g:quicktex_tex = {
     \'gamma'   : '\(\gamma\) ',
     \'delta'   : '\(\delta\) ',
     \'eps'     : '\(\epsilon\) ',
-    \'veps'      : '\(\varepsilon\) ',
+    \'veps'    : '\(\varepsilon\) ',
     \'zeta'    : '\(\zeta\) ',
     \'eta'     : '\(\eta\) ',
     \'theta'   : '\(\theta\) ',
@@ -437,7 +437,7 @@ let g:quicktex_tex = {
     \'T'   : '\(\Theta(<+++>)\)<++> ',
     \
 \'Section: More Variables' : 'COMMENT',
-    \'ell' : '\(\ell\) ',
+    \'ell'   : '\(\ell\) ',
     \'nabla' : '\(\nabla\) ',
     \
 \'Section: Text remplacement' : 'COMMENT',
