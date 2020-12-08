@@ -145,6 +145,7 @@ let g:quicktex_math = {
     \'binom'  : '\binom{<+++>}{<++>} <++>',
     \'min'    : '\min ',
     \'max'    : '\max ',
+    \'part'   : '\partial ',
     \
 \'Section: Delimiters' : 'COMMENT',
     \'bprn' : '\left( <+++> \right) <++>',
